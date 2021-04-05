@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.squares {
+  display: grid;
+  padding: 5rem;
+  grid-template-columns: repeat(3, 10rem);
+}
+.square {
+  border: 1px solid black;
+  width: 10rem;
+  height: 10rem;
+  font-size: 7rem;
+}
